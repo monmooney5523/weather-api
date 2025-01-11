@@ -1,0 +1,55 @@
+public class City {
+
+    String cityName;
+    String state;
+    String country;
+
+    double lat;
+    double longt;
+
+    public City(String cityName, String state, String country) {
+        this.cityName = cityName;
+        this.state = state;
+        this.country = country;
+    }
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public double getLat() {
+        return lat;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+    }
+
+    public double getLongt() {
+        return longt;
+    }
+
+    public void setLongt(double longt) {
+        this.longt = longt;
+    }
+}

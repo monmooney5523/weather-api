@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": -104.9847,
+    "lat": 39.7392
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 277.85,
+    "feels_like": 275.93,
+    "temp_min": 276.25,
+    "temp_max": 278.94,
+    "pressure": 1009,
+    "humidity": 42,
+    "sea_level": 1009,
+    "grnd_level": 827
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.24,
+    "deg": 0,
+    "gust": 5.36
+  },
+  "clouds": {
+    "all": 9
+  },
+  "dt": 1736614954,
+  "sys": {
+    "type": 2,
+    "id": 2002746,
+    "country": "US",
+    "sunrise": 1736605216,
+    "sunset": 1736639718
+  },
+  "timezone": -25200,
+  "id": 5419384,
+  "name": "Denver",
+  "cod": 200
+}
