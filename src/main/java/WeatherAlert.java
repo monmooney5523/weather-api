@@ -23,9 +23,9 @@ public class WeatherAlert {
     @Override
     public String toString() {
         return "{" +
-                "\"citiesAboveThreshold\":\"" + citiesAboveThreshold.toString() +
-                "\", \"citiesAtOrBelowThreshold\":\"" + citiesAtOrBelowThreshold.toString() +
-                "\", \"threshold\":" + threshold +
+                "\"citiesAboveThreshold\":" + citiesAboveThreshold.toString() +
+                ", \"citiesAtOrBelowThreshold\":" + citiesAtOrBelowThreshold.toString() +
+                ", \"threshold\":" + threshold +
                 "}";
     }
 }
