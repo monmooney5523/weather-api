@@ -10,8 +10,6 @@ public class WeatherAlertHandler {
     double threshold = 0.0;
     ArrayList<WeatherObject> allWeatherObjects;
 
-    public String postUri = "";
-
     public WeatherAlertHandler(ArrayList<WeatherObject> allWeatherObjects) {
         this.allWeatherObjects = allWeatherObjects;
         setThreshold();
@@ -42,7 +40,7 @@ public class WeatherAlertHandler {
             }
         }
 
-        System.out.println(weatherAlert.toString());
+        System.out.println(weatherAlert);
 
         HttpRequest httpRequest = HttpRequest.newBuilder()
                 .uri(URI.create("http://localhost:8080/submit"))

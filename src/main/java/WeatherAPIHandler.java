@@ -63,10 +63,7 @@ public class WeatherAPIHandler {
                         double temp = jsonNode.get("main").get("temp").asInt();
 
                         allCitiesWeather.add(new WeatherObject(city.getCityName(), temp));
-                        //WeatherAPIResponse apiResponseObj = objectMapper.readValue(response.body(), hold.WeatherAPIResponse.class);
-                        //allApiResponse.add(apiResponseObj);
                     } else {
-                        //System.out.println("Status code: " + response.statusCode());
                         System.out.println("city: " + city.getCityName() + " " + response.body());
                     }
                 } catch (IOException | InterruptedException e) {
