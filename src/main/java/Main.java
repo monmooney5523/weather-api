@@ -8,7 +8,10 @@ public class Main {
         City parkCity = new City("Park City", "UT", "US");
         City tahoe = new City("Lake Tahoe", "CA", "US");
 
-        City[] cities = {denver, parkCity, tahoe};
+        ArrayList<City> cities = new ArrayList<>();
+        cities.add(denver);
+        cities.add(parkCity);
+        cities.add(tahoe);
 
         WeatherAPIHandler weatherAPIHandler = new WeatherAPIHandler(cities);
         try {
