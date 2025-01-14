@@ -60,7 +60,7 @@ public class WeatherAPIHandler {
 
                     if (response.statusCode() == 200) {
                         JsonNode jsonNode = objectMapper.readTree(response.body());
-                        double temp = jsonNode.get("main").get("temp").asInt();
+                        double temp = jsonNode.path("main").path("temp").asDouble();
 
                         allCitiesWeather.add(new WeatherObject(city.getCityName(), temp));
                     } else {
